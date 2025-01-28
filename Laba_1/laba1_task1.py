@@ -6,7 +6,6 @@ c = float(input())
 max = a
 min = a
 
-
 if b >= max:
     max = b
 if b < min:
