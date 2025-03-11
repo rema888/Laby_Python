@@ -11,7 +11,6 @@ for key, value in dict.items():
         found_key = key
         break
 
-
 if found_key is not None:
     print(found_key)
 else:

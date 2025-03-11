@@ -16,6 +16,5 @@ def dict_with_3_most_common_numbers(s):
     most_common = dict(sorted_counts[:3])
     return most_common
 
-
 s = input('Введите строку, состоящую из цифр от 0 до 9: ')
 print('Словарь из трёх самых часто встречаемых чисел - ', dict_with_3_most_common_numbers(s))
